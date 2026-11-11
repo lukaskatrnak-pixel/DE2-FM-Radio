@@ -33,7 +33,22 @@ The **FM Radio Receiver** is based on the **Raspberry Pi Pico** running MicroPyt
 3. Allows frequency tuning and station selection using a rotary encoder.
 
 ---
+## 2. Features and scope
 
+### Minimum working scope
+- Tune the receiver using a KY-040 rotary encoder.
+- Display the selected frequency on an OLED screen.
+- Route audio from the Si4703 headphone jack to headphones or a powered amplifier.
+
+### Planned extensions
+- Show signal quality / RSSI (as supported by the tuner).
+- Save and select station presets.
+- Automatically seek stations.
+- Optional second 4-digit display.
+
+*These are project goals, not claims of completed or tested functionality.*
+
+## 3. Hardware
 ## 🛠️ Hardware Inventory & Wiring
 ## 4. Repository layout
 
