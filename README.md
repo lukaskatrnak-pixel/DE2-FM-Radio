@@ -12,9 +12,9 @@ FM Radio Receiver embedded systems term project for the **Digital Electronics 2 
 
 | Name | Role / Focus Area |
 |---|---|
-| **Lukáš Katrňák** | [README, ] |
-| **Aitken Alisher** | [Source code, ] |
-| **Murat Assiya** | [Poster, Design] |
+| **Lukáš Katrňák** | README, |
+| **Aitken Alisher** | Source code,  |
+| **Murat Assiya** | Poster, Design |
 
 ---
 
@@ -38,5 +38,5 @@ The **FM Radio Receiver** is based on the **Raspberry Pi Pico** running MicroPyt
 |---|---|---|
 | **Raspberry Pi Pico** | RP2040 microcontroller | Core controller |
 | **[Doplnit FM modul]** | [Např. Si4703 FM Tuner] | I2C |
-| **Display** | [1.3" OLED (SH1106 driver, 128x64 px)] | I2C (SDA/SCL) |
+| **Display** | 1.3" OLED (SH1106 driver, 128x64 px) | I2C (SDA/SCL) |
 | **Rotary Encoder** | KY-040 (with push-button) | Digital GPIO |
