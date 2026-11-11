@@ -20,6 +20,9 @@ FM Radio Receiver embedded systems term project for the **Digital Electronics 2 
 
 ## 📖 Project Overview
 
+## 1. Project overview
+
+This project develops a compact FM receiver with digital tuning. A Raspberry Pi Pico WH controls an **Si4703 FM tuner** through I²C. A rotary encoder provides frequency and menu control, while an OLED display presents frequency, volume and signal information. A 4-digit display may be used as an optional secondary readout.
 ### Problem Statement
 [Popsat projekt. Např.: Cílem projektu je vytvořit digitálně laditelný FM přijímač, který nahradí nepřesné analogové ladění a umožní přehledné zobrazení informací uživateli.]
 
@@ -32,7 +35,37 @@ The **FM Radio Receiver** is based on the **Raspberry Pi Pico** running MicroPyt
 ---
 
 ## 🛠️ Hardware Inventory & Wiring
+## 4. Repository layout
 
+```text
+pico_fm_radio_2026/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── src/
+│   ├── main.py
+│   ├── config.py
+│   ├── si4703.py
+│   ├── oled_ui.py
+│   ├── rotary_encoder.py
+│   └── presets.py
+├── hardware/
+│   ├── README.md
+│   ├── bom.csv
+│   └── pin_mapping.md
+├── tests/
+│   ├── README.md
+│   ├── test_i2c_scan.py
+│   ├── test_encoder.py
+│   ├── test_display.py
+│   └── test_radio.py
+├── docs/
+│   ├── architecture.md
+│   ├── test_results.md
+│   └── team_roles.md
+└── media/
+    └── README.md
+```
 ### Bill of Materials (BOM)
 | Component | Description / Specifications | Interface / Protocol |
 |---|---|---|
