@@ -114,11 +114,11 @@ Results and photos will be added after testing.
 
 ## 7. Project Progress & Checklist
 
-- [ ] **Design & Preparation:** Create a system block diagram, complete the Bill of Materials (BOM), and verify logic levels (3.3V) for safe wiring.
-- [ ] **Hardware Bring-up:** Assemble the circuit on a breadboard and perform basic I2C communication tests with the FM module and display.
-- [ ] **Software Drivers:** Create or adapt reusable MicroPython classes for the display, rotary encoder, and Si4703 FM tuner.
-- [ ] **Core Integration:** Connect the logic so that turning the encoder tunes the receiver and the display shows the selected frequency.
-- [ ] **Multitasking:** Ensure a responsive application and button debouncing by using cooperative multitasking (`uasyncio`) or hardware timers.
-- [ ] **Extension (Optional):** Implement reading and displaying Radio Data System (RDS) text (e.g., station name) on the screen.
-- [ ] **Code Documentation:** Set up and generate technical API documentation for your classes using Sphinx (in the `docs/` folder).
-- [ ] **Final Deliverables:** Complete the repository (final README), design the A3 poster, and record a short 1-2 minute demonstration video.
+- [ ] **Design:** Block diagram, BOM, and wiring plan.
+- [ ] **Hardware:** Breadboard assembly and basic I2C tests.
+- [ ] **Drivers:** MicroPython classes (display, encoder, tuner).
+- [ ] **Integration:** Main application logic (tuning & display).
+- [ ] **Multitasking:** `uasyncio` or timers for responsive UI.
+- [ ] **Extensions:** RDS decoding and display (optional).
+- [ ] **Documentation:** Sphinx API docs setup.
+- [ ] **Deliverables:** Final README, A3 poster, and demo video.
