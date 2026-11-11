@@ -12,9 +12,9 @@ FM Radio Receiver embedded systems term project for the **Digital Electronics 2 
 
 | Name | Role / Focus Area |
 |---|---|
-| **Lukáš Katrňák** | [Role] |
+| **Lukáš Katrňák** | [README, ] |
 | **Aitken Alisher** | [Role] |
-| **Murat Assiya** | [Role] |
+| **Murat Assiya** | [Poster, Design] |
 
 ---
 
