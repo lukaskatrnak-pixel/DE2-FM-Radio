@@ -114,7 +114,7 @@ Results and photos will be added after testing.
 
 ## 7. Project Progress & Checklist
 
-- [X] **Design & Preparation:** Create a system block diagram, complete the Bill of Materials (BOM), and verify logic levels (3.3V) for safe wiring.
+- [ ] **Design & Preparation:** Create a system block diagram, complete the Bill of Materials (BOM), and verify logic levels (3.3V) for safe wiring.
 - [ ] **Hardware Bring-up:** Assemble the circuit on a breadboard and perform basic I2C communication tests with the FM module and display.
 - [ ] **Software Drivers:** Create or adapt reusable MicroPython classes for the display, rotary encoder, and Si4703 FM tuner.
 - [ ] **Core Integration:** Connect the logic so that turning the encoder tunes the receiver and the display shows the selected frequency.
