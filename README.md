@@ -12,16 +12,16 @@ FM Radio Receiver embedded systems term project for the **Digital Electronics 2 
 
 | Name | Role / Focus Area |
 |---|---|
-| **Lukáš Katrňák** | [Role, např. Hardware Design & Wiring] |
-| **Aitken Alisher** | [Role, např. Software - Display & UI] |
-| **Murat Assiya** | [Role, např. Software - Radio Module & uasyncio] |
+| **Lukáš Katrňák** | [Role] |
+| **Aitken Alisher** | [Role] |
+| **Murat Assiya** | [Role] |
 
 ---
 
 ## 📖 Project Overview
 
 ### Problem Statement
-[Popište, proč projekt děláte. Např.: Cílem projektu je vytvořit digitálně laditelný FM přijímač, který nahradí nepřesné analogové ladění a umožní přehledné zobrazení informací uživateli.]
+[Popsat projekt. Např.: Cílem projektu je vytvořit digitálně laditelný FM přijímač, který nahradí nepřesné analogové ladění a umožní přehledné zobrazení informací uživateli.]
 
 ### Solution Summary
 The **FM Radio Receiver** is based on the **Raspberry Pi Pico** running MicroPython. It:
@@ -37,6 +37,6 @@ The **FM Radio Receiver** is based on the **Raspberry Pi Pico** running MicroPyt
 | Component | Description / Specifications | Interface / Protocol |
 |---|---|---|
 | **Raspberry Pi Pico** | RP2040 microcontroller | Core controller |
-| **[Doplňte FM modul]** | [Např. Si4703 FM Tuner] | I2C |
-| **[Doplňte displej]** | [Např. Nokia 5110 / OLED SH1106] | [SPI / I2C] |
+| **[Doplnit FM modul]** | [Např. Si4703 FM Tuner] | I2C |
+| **[Doplnit displej]** | [Např. Nokia 5110 / OLED SH1106] | [SPI / I2C] |
 | **Rotary Encoder** | KY-040 (with push-button) | Digital GPIO |
