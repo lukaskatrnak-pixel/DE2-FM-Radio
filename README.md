@@ -101,7 +101,7 @@ The MicroPython OLED library and tuner initialization procedure will be selected
 6. Check audio, seek behavior and user-interface response.
 
 Results and photos will be added after testing.
-### Bill of Materials (BOM)
+### Hardware Components
 | Component | Description / Specifications | Interface / Protocol |
 |---|---|---|
 | **Raspberry Pi Pico** | RP2040 microcontroller | Core controller |
@@ -114,7 +114,7 @@ Results and photos will be added after testing.
 
 ## 7. Project Progress & Checklist
 
-- [ ] **Design:** Block diagram, BOM, and wiring plan.
+- [ ] **Design:** Block diagram, HW, and wiring plan.
 - [ ] **Hardware:** Breadboard assembly and basic I2C tests.
 - [ ] **Drivers:** MicroPython classes (display, encoder, tuner).
 - [ ] **Integration:** Main application logic (tuning & display).
