@@ -66,6 +66,26 @@ pico_fm_radio_2026/
 └── media/
     └── README.md
 ```
+## 5. Software architecture
+
+- `src/si4703.py` — tuner control and readout (to implement).
+- `src/oled_ui.py` — OLED rendering (to implement).
+- `src/rotary_encoder.py` — rotary and button input (to implement).
+- `src/presets.py` — saved station list (to implement).
+- `src/main.py` — application integration (to implement).
+
+The MicroPython OLED library and tuner initialization procedure will be selected after verifying the exact boards.
+
+## 6. Testing plan
+
+1. Verify 3.3 V power and ground wiring.
+2. Scan the I²C bus; confirm responding devices and addresses.
+3. Test the encoder and button independently.
+4. Test OLED text output.
+5. Initialize the Si4703 and tune a known local FM station.
+6. Check audio, seek behavior and user-interface response.
+
+Results and photos will be added after testing.
 ### Bill of Materials (BOM)
 | Component | Description / Specifications | Interface / Protocol |
 |---|---|---|
