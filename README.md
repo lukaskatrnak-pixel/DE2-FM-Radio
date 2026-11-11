@@ -10,7 +10,7 @@ FM Radio Receiver embedded systems term project for the **Digital Electronics 2 
 
 ## 👥 Team Members & Responsibilities
 
-| Name | Role / Focus Area |
+| Name | Role |
 |---|---|
 | **Lukáš Katrňák** | README,  |
 | **Aitken Alisher** | Source code,  |
