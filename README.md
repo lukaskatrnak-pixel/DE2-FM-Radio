@@ -105,6 +105,6 @@ Results and photos will be added after testing.
 | Component | Description / Specifications | Interface / Protocol |
 |---|---|---|
 | **Raspberry Pi Pico** | RP2040 microcontroller | Core controller |
-| **[Doplnit FM modul]** | [Např. Si4703 FM Tuner] | I2C |
+| **FM Module** | Si4703 FM Tuner | I2C |
 | **Display** | 1.3" OLED (SH1106 driver, 128x64 px) | I2C (SDA/SCL) |
 | **Rotary Encoder** | KY-040 (with push-button) | Digital GPIO |
