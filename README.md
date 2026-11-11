@@ -109,6 +109,8 @@ Results and photos will be added after testing.
 | **Display** | 1.3" OLED (SH1106 driver, 128x64 px) | I2C (SDA/SCL) |
 | **Rotary Encoder** | KY-040 (with push-button) | Digital GPIO |
 
+<br>
+<br>
 
 ## 7. Project Progress & Checklist
 
