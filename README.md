@@ -65,21 +65,11 @@ The **FM Radio Receiver** is based on the **Raspberry Pi Pico W** running MicroP
 
 ### Block & Wiring Diagram
 
-```mermaid
-flowchart LR
-    ENC["KY-040 Rotary Encoder<br/>CLK, DT, SW"]
-    PICO["Raspberry Pi Pico W<br/>RP2040 / MicroPython"]
-    TUNER["Si4703 FM Tuner<br/>addr 0x10"]
-    OLED["OLED 128x64<br/>addr 0x3C"]
-    AUDIO["Headphones / Amp<br/>3.5 mm jack + FM antenna"]
+![System Block Diagram](images/block_diagram.svg)
 
-    ENC -- "GPIO (GP14, GP15, GP16)" --> PICO
-    PICO -- "I2C0 (GP4, GP5, 100 kHz) + RST (GP18)" --> TUNER
-    PICO -- "I2C1 (GP2, GP3, 400 kHz)" --> OLED
-    TUNER -- "Analog Audio Out" --> AUDIO
-```
+### Wiring Schematic
 
-> *[TODO: Exportovat opravené schéma z draw.io do `images/schema.svg` a zkontrolovat zobrazení níže.]*
+> *[TODO: Exportovat opravené schéma z draw.io (s bílým pozadím) do `images/schema.svg` a zkontrolovat zobrazení níže.]*
 
 ![Wiring Schematic](images/schema.svg)
 
