@@ -12,9 +12,9 @@ FM Radio Receiver embedded systems term project for the **Digital Electronics 2 
 
 | Name | Role |
 |---|---|
-| **Lukáš Katrňák** | README, documentation, schematic *(doplnit zbytek rolí)* |
-| **Aitken Alisher** | Source code, drivers *(doplnit zbytek rolí)* |
-| **Murat Assiya** | Poster, Design *(doplnit zbytek rolí)* |
+| **Lukáš Katrňák** | README, documentation, schematic |
+| **Aitken Alisher** | Source code, drivers |
+| **Murat Assiya** | Poster, Design |
 
 ---
 
@@ -23,7 +23,7 @@ FM Radio Receiver embedded systems term project for the **Digital Electronics 2 
 This project develops a compact FM receiver with digital tuning. A **Raspberry Pi Pico W** controls an **Si4703 FM tuner** through I2C. A rotary encoder provides frequency and volume control, while an OLED display presents frequency, volume, mode, and signal strength (RSSI).
 
 ### Problem Statement
-> *[TODO: Popsat projekt v angličtině. Např.: Cílem projektu je vytvořit digitálně laditelný FM přijímač, který nahradí nepřesné analogové ladění a umožní přehledné zobrazení informací uživateli.]*
+> *[TODO: Popsat projekt v angličtině.]*
 
 ### Solution Summary
 The **FM Radio Receiver** is based on the **Raspberry Pi Pico W** running MicroPython. It:
@@ -69,7 +69,6 @@ The **FM Radio Receiver** is based on the **Raspberry Pi Pico W** running MicroP
 
 ### Wiring Schematic
 
-> *[TODO: Exportovat opravené schéma z draw.io (s bílým pozadím) do `images/schema.svg` a zkontrolovat zobrazení níže.]*
 
 ![Wiring Schematic](images/schema.svg)
 
@@ -168,7 +167,7 @@ DE2-FM-Radio/
 - [x] **Hardware:** Breadboard assembly and basic wiring.
 - [x] **Drivers:** Initial MicroPython classes (`Si4703`, `OLEDUI`, `RotaryEncoder`).
 - [x] **Integration:** Basic working loop in `main.py` (tuning, volume, display).
-- [ ] **Design:** Finalize schematic (`images/schema.svg`) and unify `docs/pin_mapping.md`.
+- [x] **Design:** Finalize schematic (`images/schema.svg`) and unify `docs/pin_mapping.md`.
 - [ ] **Multitasking:** Refactor `main.py` and `rotary_encoder.py` to `uasyncio` + IRQ.
 - [ ] **Extensions:** Presets / seek / RDS (optional).
 - [ ] **Documentation:** Sphinx API docs setup (`docs/conf.py`, `docs/index.rst`).
