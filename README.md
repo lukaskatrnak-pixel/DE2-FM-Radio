@@ -80,7 +80,7 @@ All modules operate on **3.3 V logic** powered from Pico pin `3V3(OUT)` (Pin 36)
 |---|---|---|---|---|
 | **Si4703** | SDIO (SDA) | `GP4` | Pin 6 | `I2C0` (100 kHz) |
 | **Si4703** | SCLK (SCL) | `GP5` | Pin 7 | `I2C0` (100 kHz) |
-| **Si4703** | RST | `GP18` | Pin 24 | Digital OUT *(TODO: opravit komentář pin 9 -> pin 24 v `config.py` a aktualizovat `docs/pin_mapping.md`)* |
+| **Si4703** | RST | `GP18` | Pin 24 | Digital OUT |
 | **OLED 128x64** | SDA | `GP2` | Pin 4 | `I2C1` (400 kHz) |
 | **OLED 128x64** | SCL / SCK | `GP3` | Pin 5 | `I2C1` (400 kHz) |
 | **KY-040** | CLK | `GP14` | Pin 19 | Digital IN (`PULL_UP`) |
@@ -99,7 +99,7 @@ DE2-FM-Radio/
 ├── docs/
 │   └── pin_mapping.md        # TODO: doplnit Sphinx soubory (conf.py, index.rst)
 ├── images/
-│   └── schema.svg            # TODO: nahrát opravené schéma a fotky zapojení
+│   └── schema.svg
 ├── src/
 │   ├── config.py             # GPIO pinout and radio constants
 │   ├── main.py               # Main application loop
