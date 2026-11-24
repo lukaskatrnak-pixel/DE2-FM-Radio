@@ -4,7 +4,7 @@ I2C_ID = 0
 I2C_SDA = 4          # GP4, physical pin 6
 I2C_SCL = 5          # GP5, physical pin 7
 I2C_FREQ = 100_000
-RADIO_RST = 18        # GP18, physical pin 9
+RADIO_RST = 18        # GP18, physical pin 24
 RADIO_ADDRESS = 0x10
 
 # OLED on its own bus I2C1
