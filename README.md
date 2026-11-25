@@ -186,7 +186,6 @@ DE2-FM-Radio/
     </td>
   </tr>
 </table>
----
 
 ## 7. Project Progress & Checklist
 
