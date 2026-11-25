@@ -158,7 +158,20 @@ DE2-FM-Radio/
 5. Initialize the Si4703 and tune a known local FM station (`tests/test_radio.py`).
 6. Check audio quality, RSSI updates, and user-interface responsiveness.
 
-> *[TODO: Po otestování doplnit naměřené hodnoty (odezva, obnovovací frekvence displeje, rozsah RSSI) a fotky funkčního prototypu.]*
+### Test Results & Prototype Photos
+
+- **I2C Scan (`tests/test_i2c_scan.py`):** Confirmed `0x10` (Si4703) on `I2C0` and `0x3c` (OLED) on `I2C1`.
+- **OLED Display (`tests/test_display.py`):** Test screen rendered successfully (`OLED test drawn`).
+- **FM Tuner (`tests/test_radio.py`):** Successfully tuned to `99.5 MHz` with `RSSI: 26`.
+- **Rotary Encoder (`tests/test_encoder.py`):** Verified clockwise (`step: 1`), counter-clockwise (`step: -1`), and push-button (`press: True`) detection.
+
+| I2C, OLED & FM Radio Test Output | Rotary Encoder Test Output |
+|---|---|
+| ![I2C, OLED and Radio Test](images/test_1.png) | ![Rotary Encoder Test](images/test_2.png) |
+
+| OLED Display Output | Complete Breadboard Prototype |
+|---|---|
+| ![OLED Display](images/display.jpg) | ![Breadboard Prototype](images/prototype.jpg) |
 
 ---
 
