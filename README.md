@@ -160,10 +160,32 @@ DE2-FM-Radio/
 
 ### Test Results & Prototype Photos
 
-- **I2C Scan (`tests/test_i2c_scan.py`):** Confirmed `0x10` (Si4703) on `I2C0` and `0x3c` (OLED) on `I2C1`.
-- **OLED Display (`tests/test_display.py`):** Test screen rendered successfully (`OLED test drawn`).
-- **FM Tuner (`tests/test_radio.py`):** Successfully tuned to `99.5 MHz` with `RSSI: 26`.
-- **Rotary Encoder (`tests/test_encoder.py`):** Verified clockwise (`step: 1`), counter-clockwise (`step: -1`), and push-button (`press: True`) detection.
+<table>
+  <tr>
+    <th width="50%">I2C, OLED &amp; FM Radio Test Output</th>
+    <th width="50%">Rotary Encoder Test Output</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/test_1.png" alt="I2C, OLED and Radio Test" height="260">
+    </td>
+    <td align="center">
+      <img src="images/test_2.png" alt="Rotary Encoder Test" height="260">
+    </td>
+  </tr>
+  <tr>
+    <th width="50%">OLED Display Output</th>
+    <th width="50%">Complete Breadboard Prototype</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/display.jpg" alt="OLED Display" height="280">
+    </td>
+    <td align="center">
+      <img src="images/prototype.jpg" alt="Breadboard Prototype" height="280">
+    </td>
+  </tr>
+</table>
 
 | I2C, OLED & FM Radio Test Output | Rotary Encoder Test Output |
 |---|---|
