@@ -186,15 +186,6 @@ DE2-FM-Radio/
     </td>
   </tr>
 </table>
-
-| I2C, OLED & FM Radio Test Output | Rotary Encoder Test Output |
-|---|---|
-| ![I2C, OLED and Radio Test](images/test_1.png) | ![Rotary Encoder Test](images/test_2.png) |
-
-| OLED Display Output | Complete Breadboard Prototype |
-|---|---|
-| ![OLED Display](images/display.jpg) | ![Breadboard Prototype](images/prototype.jpg) |
-
 ---
 
 ## 7. Project Progress & Checklist
