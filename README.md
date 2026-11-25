@@ -58,7 +58,7 @@ The **FM Radio Receiver** is based on the **Raspberry Pi Pico W** running MicroP
 | Component | Description / Specifications | Interface / Protocol |
 |---|---|---|
 | [**Raspberry Pi Pico W**](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf) | RP2040 microcontroller, 3.3 V logic | Core controller |
-| [**FM Module**](https://www.skyworksinc.com/-/media/Skyworks/SL/documents/public/data-sheets/Si4702-03-C19.pdf) | Silicon Labs Si4703 FM Tuner breakout (`0x10`) | I2C0 (100 kHz) + RST |
+| [**FM Module**](https://cdn.sparkfun.com/assets/f/0/9/0/1/Si4702-03-C19-1.pdf) | Silicon Labs Si4703 FM Tuner breakout (`0x10`) | I2C0 (100 kHz) + RST |
 | [**Display**](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) | OLED 128x64 px (`0x3C` / `0x3D`) *(TODO: sjednotit SSD1306 vs. SH1106 s `oled_ui.py`)* | I2C1 (400 kHz) |
 | [**Rotary Encoder**](https://www.handsontec.com/dataspecs/module/Rotary%20Encoder.pdf) | KY-040 with push-button | Digital GPIO (`PULL_UP`) |
 | **Audio Output** | Headphones / powered speaker (3.5 mm jack) | Analog audio from Si4703 |
